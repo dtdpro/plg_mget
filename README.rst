@@ -1,7 +1,7 @@
 Content - MGet
 =============
 
-This plugin will ouput the current user information or guest or 0 for user id if not logged in.
+This plugin will output the current user information or guest or 0 for user id if not logged in. Works in content only.
 
 Compatiable with Joomla 1.5/1.6
 
@@ -17,7 +17,7 @@ Input			Outputs
 Downlaod
 --------
 
-https://github.com/dtdpro/plg_mget/zipball/master
+http://dl.ditzthedaisy.com/plg_mget.zip
 
 
 Installation
