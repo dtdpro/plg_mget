@@ -10,20 +10,15 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 class  plgContentMGet extends JPlugin
 {
-	function plgContentMGet( &$subject, $params )
-	{
-		parent::__construct( $subject, $params );
-	}
-
 	function onPrepareContent( &$article, &$params, $limitstart )
 	{
-		$app =& JFactory::getApplication();
+		$app = JFactory::getApplication();
 
 		if($app->getName() != 'site') {
 			return true;
 		}
 
-		$user = &JFactory::getUser();
+		$user = JFactory::getUser();
 		
 		$uid=$user->id;
 		if ($uid) {
@@ -59,7 +54,7 @@ class  plgContentMGet extends JPlugin
 		}
 
 		
-		$user = &JFactory::getUser();
+		$user = JFactory::getUser();
 		
 		$uid=$user->id;
 		if ($uid) {
